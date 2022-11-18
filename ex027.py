@@ -1,0 +1,5 @@
+nome = input("Digite se nome completo: ")
+print ("Prazer em te conhecer!")
+n = nome.split()
+print (f"Seu primeiro nome é {n[0]}")
+print (f"Seu último nome é {n[len(n)-1]}")
